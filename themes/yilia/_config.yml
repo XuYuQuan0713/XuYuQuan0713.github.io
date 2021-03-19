@@ -2,6 +2,7 @@
 
 menu:
   主页: /
+  # 相册: /photos
   随笔: /tags
   资源分享: /source
 # SubNav
@@ -106,6 +107,9 @@ style:
   path: /Touxiang/11.gif
   # 右滑板块背景
   slider: "linear-gradient(200deg,#a0cfe4,#e8c37e)"
+
+clinkLove:
+  enable: true
 
 # slider的设置
 slider:
