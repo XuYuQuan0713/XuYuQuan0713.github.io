@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: orange的个人博客网站
-subtitle: ""
-description: "向阳而生"
+title: orange
+subtitle:
+description: 向阳而生
 keywords:
 author: 徐玉全
 language: zh-CN
-timezone: ""
+timezone:
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -114,7 +114,8 @@ jsonContent:
     title: true
     date: true
     path: true
-    text: false
+    author: true
+    text: true
     raw: false
     content: false
     slug: false
