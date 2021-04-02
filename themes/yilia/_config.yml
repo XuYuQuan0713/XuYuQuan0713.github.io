@@ -66,10 +66,10 @@ top: true
 # Miscellaneous
 baidu_analytics: ""
 google_analytics: ""
-favicon: /Touxiang/11.png
+favicon: /img/orange.svg
 
 #你的头像url
-avatar: /Touxiang/1.jpg
+avatar: /img/cat.jpg
 
 #是否开启分享
 share_jia: true
