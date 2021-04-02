@@ -105,8 +105,9 @@ theme: yilia #yilia
 deploy:
   type: git
   repo:
-    github: git@github.com:XuYuQuan0713/XuYuQuan0713.github.io.git,master
-    gitee: git@gitee.com:xu-yuquan/xu-yuquan.git,master,master
+    github: git@github.com:XuYuQuan0713/XuYuQuan0713.github.io.git
+    gitee: git@gitee.com:xu-yuquan/xu-yuquan.git,master
+    branch: master
 
 jsonContent:
   meta: false
