@@ -203,7 +203,20 @@
 <span id="more"></span>
 
 <h1 id="rand-函数指定区域内的随机数"><a href="#rand-函数指定区域内的随机数" class="headerlink" title="rand 函数指定区域内的随机数"></a>rand 函数指定区域内的随机数</h1><p>一般来说，可以使用公式 r = a + (b-a).*rand(N,1) 生成区间 (a,b) 内的 N 个随机数。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; r &#x3D; -5 + (5+5)*rand(10,1)     %生成一个由区间 (-5,5) 内均匀分布的数字组成的 10×1 列向量。</span><br><span class="line"></span><br><span class="line">r &#x3D;</span><br><span class="line"></span><br><span class="line">   -0.6126</span><br><span class="line">   -1.1844</span><br><span class="line">    2.6552</span><br><span class="line">    2.9520</span><br><span class="line">   -3.1313</span><br><span class="line">   -0.1024</span><br><span class="line">   -0.5441</span><br><span class="line">    1.4631</span><br><span class="line">    2.0936</span><br><span class="line">    2.5469</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-test" data-language="test"><code class="language-test">&gt;&gt; r &#x3D; -5 + (5+5)*rand(10,1)     %生成一个由区间 (-5,5) 内均匀分布的数字组成的 10×1 列向量。
+
+r &#x3D;
+
+   -0.6126
+   -1.1844
+    2.6552
+    2.9520
+   -3.1313
+   -0.1024
+   -0.5441
+    1.4631
+    2.0936
+    2.5469<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
       
 
