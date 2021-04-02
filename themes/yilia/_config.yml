@@ -34,7 +34,7 @@ root: /
 # Content
 
 # 文章太长，截断按钮文字
-excerpt_link: more
+excerpt_link:
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: "展开全文"
 # 数学公式
@@ -44,13 +44,13 @@ open_in_new: true
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 0
+reward_type: 1
 # 打赏wording
 reward_wording: "感谢你的赞赏"
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
 alipay:
 # 微信二维码图片地址
-weixin: /sources/Touxiang/115.png
+weixin: /img/115.png
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
@@ -108,6 +108,8 @@ style:
   # 右滑板块背景
   slider: "linear-gradient(200deg,#a0cfe4,#e8c37e)"
 
+#头像变换
+
 clinkLove:
   enable: true
 
@@ -135,3 +137,5 @@ music:
   autoplay: false # 是否开启自动播放
 
 aboutme: <br>回首过去几年，<br>有种莫名的失败感<br>
+author: orange
+subtitle: "我们一起奔赴明天"
