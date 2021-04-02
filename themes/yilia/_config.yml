@@ -8,23 +8,24 @@ menu:
 # SubNav
 subnav:
   github: "https://github.com/XuYuQuan0713"
-  weibo: "https://weibo.com/5095847284/profile?topnav=1&wvr=6"
-  #rss: "#"
+  #weibo: "https://weibo.com/5095847284/profile?topnav=1&wvr=6"
+  bilibili: "https://space.bilibili.com/286892977"
+  rss: "atom.xml"
   #zhihu: "#"
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
   #douban: "#"
   #segmentfault: "#"
-  bilibili: "https://space.bilibili.com/286892977"
+
   #acfun: "#"
-  mail: "mailto:934988029@qq.com"
+  #mail: "mailto:934988029@qq.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
   #linkedin: "#"
 
-rss: /atom.xml
+#rss: /atom.xml
 
 # 是否需要修改 root 路径
 # 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
@@ -109,6 +110,8 @@ style:
   slider: "linear-gradient(200deg,#a0cfe4,#e8c37e)"
 
 #头像变换
+#头像是否旋转(如果不要旋转取false)
+avatarrotation: true
 
 clinkLove:
   enable: true
@@ -139,3 +142,22 @@ music:
 aboutme: <br>回首过去几年，<br>有种莫名的失败感<br>
 author: orange
 subtitle: "我们一起奔赴明天"
+
+# Live2D
+## https://github.com/EYHN/hexo-helper-live2d
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-shizuku # 模型：https://huaji8.top/post/live2d-plugin-2.0/
+  display:
+    position: right
+    width: 75
+    height: 150
+  mobile:
+    show: true

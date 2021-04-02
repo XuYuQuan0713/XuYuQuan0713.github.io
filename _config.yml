@@ -51,7 +51,7 @@ highlight:
   wrap: true
   hljs: false
 prismjs:
-  enable: false
+  enable: true
   preprocess: true
   line_number: true
   tab_replace: ""
@@ -97,6 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+
 theme: yilia #yilia
 
 # Deployment
@@ -116,7 +117,7 @@ jsonContent:
     path: true
     author: true
     text: true
-    raw: false
+    raw: true
     content: false
     slug: false
     updated: false
@@ -126,3 +127,12 @@ jsonContent:
     excerpt: false
     categories: false
     tags: true
+
+    # Extensions
+plugins:
+  - hexo-generator-feed
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20 # 最新的20篇文章
