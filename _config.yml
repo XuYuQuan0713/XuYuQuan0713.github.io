@@ -97,6 +97,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+# Extensions
+plugins: hexo-generator-feed
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20 # 最新的20篇文章
 
 theme: yilia #yilia
 
@@ -106,7 +113,7 @@ deploy:
   type: git
   repo:
     github: git@github.com:XuYuQuan0713/XuYuQuan0713.github.io.git
-    gitee: git@gitee.com:xu-yuquan/xu-yuquan.git,master
+    gitee: git@gitee.com:xu-yuquan/xu-yuquan.git
     branch: master
 
 jsonContent:
@@ -128,12 +135,3 @@ jsonContent:
     excerpt: false
     categories: false
     tags: true
-
-    # Extensions
-plugins:
-  - hexo-generator-feed
-#Feed Atom
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20 # 最新的20篇文章
