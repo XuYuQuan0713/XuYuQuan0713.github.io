@@ -142,21 +142,20 @@ music:
 aboutme: <br>回首过去几年，<br>有种莫名的失败感<br>
 author: orange
 subtitle: "我们一起奔赴明天"
-# Live2D
-## https://github.com/EYHN/hexo-helper-live2d
-# live2d:
-#   enable: false
-#   scriptFrom: local
-#   pluginRootPath: live2dw/
-#   pluginJsPath: lib/
-#   pluginModelPath: assets/
-#   tagMode: false
-#   debug: false
-#   model:
-#     use: live2d-widget-model-Koharu # 模型：https://huaji8.top/post/live2d-plugin-2.0/
-#   display:
-#     position: left
-#     width: 150
-#     height: 300
-#   mobile:
-#     show: false
+
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-hibiki # 模型：https://huaji8.top/post/live2d-plugin-2.0/ hanyou koharu /shizuku/hijiki/hibiki
+  display:
+    position: right
+    width: 70
+    height: 187
+  mobile:
+    show: true

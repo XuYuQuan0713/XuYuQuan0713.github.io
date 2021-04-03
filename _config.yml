@@ -153,4 +153,4 @@ live2d:
     width: 70
     height: 187
   mobile:
-    show: false
+    show: true
