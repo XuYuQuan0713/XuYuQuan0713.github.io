@@ -3,8 +3,9 @@
 menu:
   主页: /
   # 相册: /photos
-  随笔: /tags
-  资源分享: /source
+  分类: /source
+  标签: /tags
+
 # SubNav
 subnav:
   github: "https://github.com/XuYuQuan0713"
@@ -33,6 +34,12 @@ subnav:
 root: /
 
 # Content
+
+# 网站运行时间，格式形如：“本站已安全运行 101 天 12 小时 13 分 41 秒”
+# Runing Time
+# running_time:
+#   enable: true
+#   create_time: '11/28/2014 12:00:00' #此处修改你的建站时间或者网站上线时间
 
 # 文章太长，截断按钮文字
 excerpt_link:
@@ -103,8 +110,8 @@ gitment_oauth:
 style:
   # 头像上面的背景颜色
   header: "#006374"
-  gif:
-  enable: true
+  # gif:
+  # enable: true
   path: /Touxiang/11.gif
   # 右滑板块背景
   slider: "linear-gradient(200deg,#a0cfe4,#e8c37e)"

@@ -133,7 +133,7 @@ jsonContent:
     link: false
     permalink: false
     excerpt: false
-    categories: false
+    categories: true
     tags: true
 
     # Live2D
@@ -154,3 +154,8 @@ live2d:
     height: 187
   mobile:
     show: true
+# #网站运行时间，格式形如：“本站已安全运行 101 天 12 小时 13 分 41 秒”
+# #Runing Time
+# running_time:
+#   enable: true
+#   create_time: '11/28/2014 12:00:00'#此处修改你的建站时间或者网站上线时间
