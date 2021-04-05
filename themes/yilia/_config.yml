@@ -3,8 +3,8 @@
 menu:
   主页: /
   # 相册: /photos
-  分类: /source
-  标签: /tags
+  #分类: /categories
+  分享链接: /tags
 
 # SubNav
 subnav:
@@ -100,11 +100,14 @@ changyan_conf: false
 disqus: false
 
 #5、Gitment
-gitment_owner: false #你的 GitHub ID
-gitment_repo: "" #存储评论的 repo
+# gitment:
+# enable: true
+gitment_owner: false #XuYuQuan0713 #你的 GitHub ID
+gitment_remote: false
+gitment_repo: XuYuQuan0713.github.io #存储评论的 repo
 gitment_oauth:
-  client_id: "" #client ID
-  client_secret: "" #client secret
+  client_id: 1fc62dd56cbe0576f99c #client ID
+  client_secret: 60c3ab1a78ca614a3326978669f482c68e96400f #client secret
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
