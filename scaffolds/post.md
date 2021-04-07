@@ -1,7 +1,7 @@
 ---
-title: { { title } }
+title: {{ title }}
 auther: yuquan
-date: { { date } }
+date: {{ date }}
 reward: false
 tags:
 categories:
