@@ -102,12 +102,12 @@ disqus: false
 #5、Gitment
 # gitment:
 # enable: true
-gitment_owner: false #XuYuQuan0713 #你的 GitHub ID
-gitment_remote: false
-gitment_repo: XuYuQuan0713.github.io #存储评论的 repo
-gitment_oauth:
-  client_id: 1fc62dd56cbe0576f99c #client ID
-  client_secret: 60c3ab1a78ca614a3326978669f482c68e96400f #client secret
+# gitment_owner: false #XuYuQuan0713 #你的 GitHub ID
+# gitment_remote: false
+# gitment_repo: XuYuQuan0713.github.io #存储评论的 repo
+# gitment_oauth:
+#   client_id: 1fc62dd56cbe0576f99c #client ID
+#   client_secret: 60c3ab1a78ca614a3326978669f482c68e96400f #client secret
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
