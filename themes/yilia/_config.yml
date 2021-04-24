@@ -4,7 +4,7 @@ menu:
   主页: /
   # 相册: /photos
   #分类: /categories
-  分享链接: /tags
+  分享链接: /categories
 
 # SubNav
 subnav:
@@ -46,7 +46,7 @@ excerpt_link:
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: "展开全文"
 # 数学公式
-mathjax: false
+mathjax: true
 # 是否在新窗口打开链接
 open_in_new: true
 
@@ -109,10 +109,10 @@ disqus: false
 #   client_id: 1fc62dd56cbe0576f99c #client ID
 #   client_secret: 60c3ab1a78ca614a3326978669f482c68e96400f #client secret
 
-# 样式定制 - 一般不需要修改，除非有很强的定制欲望…
+# 样式定制 - 一般不需要修改，除非有很强的定制欲望…#a0cfe4,#e8c37e
 style:
   # 头像上面的背景颜色
-  header: "#006374"
+  header: "#FCF5EF"
   # gif:
   # enable: true
   path: /Touxiang/11.gif
