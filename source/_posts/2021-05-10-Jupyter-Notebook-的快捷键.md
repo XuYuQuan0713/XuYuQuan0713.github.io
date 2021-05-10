@@ -9,6 +9,10 @@ categories: 快捷键
 
 # Jupyter Notebook 的快捷键
 
+**Jupyter Notebook 有两种键盘输入模式。**
+
+<!--more-->
+
 **使用前需要进行安装：**
 
 `pip install jupyter`  **(前提是你已经安装好Python,并将python添加到环境解释器中)**
