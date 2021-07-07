@@ -41,3 +41,14 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
+```
+上传到git上和gitee上备份博客
+git add .
+git commit -m "xxxx"
+上传到hexo分支
+git push -u origin hexo
+git push -u gitee hexo
+
+```
+
