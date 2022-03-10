@@ -6,7 +6,7 @@
   <link href="https://xuyuquan0713.github.io/atom.xml" rel="self"/>
   
   <link href="https://xuyuquan0713.github.io/"/>
-  <updated>2022-03-10T09:27:51.346Z</updated>
+  <updated>2022-03-10T12:04:37.846Z</updated>
   <id>https://xuyuquan0713.github.io/</id>
   
   <author>
@@ -17,22 +17,25 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
-    <link href="https://xuyuquan0713.github.io/2022/03/10/test/"/>
-    <id>https://xuyuquan0713.github.io/2022/03/10/test/</id>
-    <published>2022-03-10T09:26:53.000Z</published>
-    <updated>2022-03-10T09:27:51.346Z</updated>
+    <title>Hexo的不同电脑同步</title>
+    <link href="https://xuyuquan0713.github.io/2022/03/10/Hexo%E7%9A%84%E4%B8%8D%E5%90%8C%E7%94%B5%E8%84%91%E5%90%8C%E6%AD%A5/"/>
+    <id>https://xuyuquan0713.github.io/2022/03/10/Hexo%E7%9A%84%E4%B8%8D%E5%90%8C%E7%94%B5%E8%84%91%E5%90%8C%E6%AD%A5/</id>
+    <published>2022-03-10T11:05:44.000Z</published>
+    <updated>2022-03-10T12:04:37.846Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="这是一个测试不同电脑同步的"><a href="#这是一个测试不同电脑同步的" class="headerlink" title="这是一个测试不同电脑同步的"></a>这是一个测试不同电脑同步的</h2>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;这是一个测试不同电脑同步的&quot;&gt;&lt;a href=&quot;#这是一个测试不同电脑同步的&quot; class=&quot;headerlink&quot; title=&quot;这是一个测试不同电脑同步的&quot;&gt;&lt;/a&gt;这是一个测试不同电脑同步的&lt;/h2&gt;</summary>
-      
+    <content type="html"><![CDATA[<hr><h1 id="Hexo两台电脑同步博客的方法"><a href="#Hexo两台电脑同步博客的方法" class="headerlink" title="Hexo两台电脑同步博客的方法"></a>Hexo两台电脑同步博客的方法</h1><hr><p>起因：实验室电脑和自己的笔记本要实现同时写博客进行同步推送，之前的做法是拷贝到笔记本然后进行推送，感觉太麻烦，所以进行同步设置，博客之前就已经进行过备份，在github’和gitee上创建过hexo分支，所以主要是在实验室电脑进行操作，，，，，</p><span id="more"></span><p>文件夹目录：</p><p><img src="https://gitee.com/xu-yuquan/picture-markdown/raw/master/QQ%E6%88%AA%E5%9B%BE202203101025.png"></p><h2 id="首先要安装hexo，安装node，"><a href="#首先要安装hexo，安装node，" class="headerlink" title="首先要安装hexo，安装node，"></a><strong>首先要安装hexo，安装node，</strong></h2><pre class="line-numbers language-none"><code class="language-none">cnpm install -g hexo-clinpm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.orgnpm -vnode -vhexo -v 检查是否安装成功<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="git-clone-b-hexo-地址url"><a href="#git-clone-b-hexo-地址url" class="headerlink" title="git clone -b hexo 地址url"></a><strong>git clone -b hexo 地址url</strong></h2><p>存在的目录为：</p><ul><li><p>_config.yml：站点配置</p></li><li><p>package.json：说明使用那些包</p></li><li><p>scaffolds：文章的模板</p></li><li><p>source：自己写的博客文件</p></li><li><p>themes：主题</p></li><li><p>.gitignore：限定在提交的时候哪些文件可以忽略</p></li></ul><h2 id="npm-install"><a href="#npm-install" class="headerlink" title="npm install"></a>npm install</h2><p>在git bash中切换目录到新拷贝的文件夹里，使用<code>npm install</code> 命令，进行模块安装。很明显我们这里没用hexo init初始化，因为有的文件我们已经拷贝生成过来了，所以不必用hexo init去整体初始化，如果不慎在此时用了hexo init，则站点的配置文件_config.yml里面内容会被清空使用默认值，所以这一步一定要慎重，不要用hexo init。</p><h2 id="安装其他必要组件"><a href="#安装其他必要组件" class="headerlink" title="安装其他必要组件"></a>安装其他必要组件</h2><pre class="line-numbers language-none"><code class="language-none">npm install hexo-deployer-git --save # 为了使用hexo d来部署到git上 npm install hexo-generator-feed --save # 为了建立RSS订阅npm install hexo-generator-sitemap --save # 为了建立站点地图<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h2 id="验证"><a href="#验证" class="headerlink" title="验证"></a>验证</h2><pre class="line-numbers language-none"><code class="language-none">hexo ghexo shexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="上传备份"><a href="#上传备份" class="headerlink" title="上传备份"></a>上传备份</h2><p>1.需要将本地的仓库和远端备份的仓库进行建立联系</p><p>git  remote  add gitee 仓库url   //这里和远端gitee进行联系，前面是从github上拉取的备份，具体可以使用git命令查看</p><p><strong>最后：</strong></p><p>建议在双电脑的情况下首先进行git pull进行代码和备份的同步</p><pre class="line-numbers language-none"><code class="language-none">git add .git commit -m &quot;*****&quot;git push -u origin hexo git push -u gitee hexo &#x2F;&#x2F;这里进行双备份<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><h2 id="git-reset-和-git-revert-的区别"><a href="#git-reset-和-git-revert-的区别" class="headerlink" title="git reset 和 git revert 的区别"></a>git reset 和 git revert 的区别</h2><ol><li> git revert是用一次新的commit来回滚之前的commit，git reset是直接删除指定的commit。</li><li> 在回滚这一操作上看，效果差不多。但是在日后继续merge以前的老版本时有区别。因为git revert是用一次逆向的commit“中和”之前的提交，因此日后合并老的branch时，导致这部分改变不会再次出现，但是git reset是之间把某些commit在某个branch上删除，因而和老的branch再次merge时，这些被回滚的commit应该还会被引入。</li><li> git reset 是把HEAD向后移动了一下，而git revert是HEAD继续前进，只是新的commit的内容和要revert的内容正好相反，能够抵消要被revert的内容。</li><li> 使用“git reset –hard 目标版本号”命令将版本回退：再用“git log”查看版本信息，此时如果用“git push”会报错，因为我们本地库HEAD指向的版本比远程库的要旧，所以我们要用“git push -f”强制推上去，就可以了：</li></ol>]]></content>
     
     
+    <summary type="html">&lt;hr&gt;
+&lt;h1 id=&quot;Hexo两台电脑同步博客的方法&quot;&gt;&lt;a href=&quot;#Hexo两台电脑同步博客的方法&quot; class=&quot;headerlink&quot; title=&quot;Hexo两台电脑同步博客的方法&quot;&gt;&lt;/a&gt;Hexo两台电脑同步博客的方法&lt;/h1&gt;&lt;hr&gt;
+&lt;p&gt;起因：实验室电脑和自己的笔记本要实现同时写博客进行同步推送，之前的做法是拷贝到笔记本然后进行推送，感觉太麻烦，所以进行同步设置，博客之前就已经进行过备份，在github’和gitee上创建过hexo分支，所以主要是在实验室电脑进行操作，，，，，&lt;/p&gt;</summary>
     
+    
+    
+    <category term="Hexo" scheme="https://xuyuquan0713.github.io/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://xuyuquan0713.github.io/tags/Hexo/"/>
     
   </entry>
   
