@@ -145,7 +145,7 @@ friends:
   轻许xuxu: https://xuyuquan0713.github.io/
 
 music:
-  enable: true
+  enable: false
   id: 1377748865 # 网易云分享的ID,ID可以随时替换
   autoplay: false # 是否开启自动播放
 
