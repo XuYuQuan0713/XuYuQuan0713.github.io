@@ -6,7 +6,7 @@
   <link href="https://xuyuquan0713.github.io/atom.xml" rel="self"/>
   
   <link href="https://xuyuquan0713.github.io/"/>
-  <updated>2022-03-10T09:13:30.100Z</updated>
+  <updated>2022-03-10T09:27:51.346Z</updated>
   <id>https://xuyuquan0713.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://xuyuquan0713.github.io/2022/03/10/test/"/>
+    <id>https://xuyuquan0713.github.io/2022/03/10/test/</id>
+    <published>2022-03-10T09:26:53.000Z</published>
+    <updated>2022-03-10T09:27:51.346Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="这是一个测试不同电脑同步的"><a href="#这是一个测试不同电脑同步的" class="headerlink" title="这是一个测试不同电脑同步的"></a>这是一个测试不同电脑同步的</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;这是一个测试不同电脑同步的&quot;&gt;&lt;a href=&quot;#这是一个测试不同电脑同步的&quot; class=&quot;headerlink&quot; title=&quot;这是一个测试不同电脑同步的&quot;&gt;&lt;/a&gt;这是一个测试不同电脑同步的&lt;/h2&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>youtub-dl</title>
