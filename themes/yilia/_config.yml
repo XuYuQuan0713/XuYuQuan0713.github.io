@@ -10,7 +10,9 @@ menu:
 subnav:
   github: "https://github.com/XuYuQuan0713"
   #weibo: "https://weibo.com/5095847284/profile?topnav=1&wvr=6"
-  bilibili: "https://space.bilibili.com/286892977"
+  #bilibili: "https://space.bilibili.com/286892977"
+  mail: "mailto:934988029@qq.com"
+  qq: "t.me/Pillow_Rainbow"
   rss: "atom.xml"
   #zhihu: "#"
   #qq: "#"
@@ -20,7 +22,7 @@ subnav:
   #segmentfault: "#"
 
   #acfun: "#"
-  mail: "mailto:934988029@qq.com"
+
   #facebook: "#"
   #google: "#"
   #twitter: "#"
