@@ -9,7 +9,7 @@ categories: vim
 
 # linux下的vim的使用
 
-![](https://gitee.com/xu-yuquan/picture-markdown/raw/master/tmux.png)
+![](https://s2.loli.net/2022/06/16/ETAtCkNbVOfsnhr.png)
 
 
 
@@ -89,23 +89,23 @@ call plug#end()
 
 1、Vim键盘
 
-![](https://gitee.com/xu-yuquan/picture-markdown/raw/master/vi-vim-cheat-sheet-sch.gif)
+![](https://s2.loli.net/2022/06/16/A73MBZCnXVQ4Gms.gif)
 
 2、Vim命令图解
 
-![](https://gitee.com/xu-yuquan/picture-markdown/raw/master/vim-cheat-sheet-full.png)
+![](https://s2.loli.net/2022/06/16/8trbwD5AJq4aT3u.png)
 
 3、Vim使用
 
-![](https://gitee.com/xu-yuquan/picture-markdown/raw/master/vim-cheat-sheet-cn.png)
+![](https://s2.loli.net/2022/06/16/6jXo4qcvLyJsViQ.png)
 
-![](https://gitee.com/xu-yuquan/picture-markdown/raw/master/vim_cheat_sheet_for_programmers_screen.png)
+![](https://s2.loli.net/2022/06/16/xeGgW75fuwvD3PN.png)
 
 ## 3、Tmux的安装和使用
 
 ==**介绍：**==
 
-![](https://gitee.com/xu-yuquan/picture-markdown/raw/master/tmux.png)
+![](https://s2.loli.net/2022/06/16/ETAtCkNbVOfsnhr.png)
 
 tmux 是一款优秀的终端复用工具（terminal multiplexer），是常用的开发工具，使用它最直观的好处就是，通过一个终端登录远程主机并运行tmux后，在其中可以开启多个控制台而无需再“浪费”多余的终端来连接这台远程主机。[使用手册](http://louiszhai.github.io/2017/09/30/tmux/#%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5)
 
@@ -131,7 +131,7 @@ tmux 就是会话与窗口的 “解绑” 工具，将它们彻底分离。
 
 类似的终端复用器还有 GNU Screen。tmux 与它功能相似，但是更易用，也更强大。
 
-![](https://gitee.com/xu-yuquan/picture-markdown/raw/master/tmux-1.png)
+![](https://s2.loli.net/2022/06/16/EQpy5B6zO7YcMvj.jpg)
 
 ==**tmux概念**==
 
@@ -146,7 +146,7 @@ tmux 就是会话与窗口的 “解绑” 工具，将它们彻底分离。
 
 了解了这个逻辑后，整个Tmux的使用和配置也就清晰了。
 
-![](https://gitee.com/xu-yuquan/picture-markdown/raw/master/tmux1.png)
+![](https://s2.loli.net/2022/06/16/fJ2XCRnSlTEqZuN.png)
 
 [详细的使用书籍](https://pityonline.gitbooks.io/tmux-productive-mouse-free-development_zh/content/index.html)
 
@@ -157,6 +157,6 @@ tmux 就是会话与窗口的 “解绑” 工具，将它们彻底分离。
 
 **快捷键：**
 
-![](https://gitee.com/xu-yuquan/picture-markdown/raw/master/linux_common_commands2.jpg)
+![](https://s2.loli.net/2022/06/16/1k6HhzGNZd3YQ5E.jpg)
 
-![](https://gitee.com/xu-yuquan/picture-markdown/raw/master/Linux-Command-Line-Guide.png)
+![](https://s2.loli.net/2022/06/16/9vJuMwGEkLjWN3Q.png)
